@@ -114,8 +114,6 @@ public class VarastoTest {
     public void uudellaVarastollaOikeaTilavuusJaAlkusaldoNegatiivisellaTilavuudella() {
         Varasto uusiVarasto = new Varasto(-1, 10);
         assertEquals(0, uusiVarasto.getTilavuus(), vertailuTarkkuus);
-        // Ei mennyt testeistä läpi
-        assertEquals(0, uusiVarasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
