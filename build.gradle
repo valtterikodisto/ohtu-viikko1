@@ -33,7 +33,7 @@ dependencies {
 // For building .jar file
 jar {
     manifest {
-        attributes 'Main-Class': 'ohtu.main.Main'
+        attributes 'Main-Class': 'main.Main'
     }
 }
 
@@ -52,5 +52,5 @@ jacocoTestReport {
 }
 
 // Define the main class for the application
-mainClassName = 'ohtu.main.Main'
+mainClassName = 'main.Main'
 
