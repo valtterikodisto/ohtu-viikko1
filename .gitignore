@@ -1,3 +1,8 @@
 *.tmp
 build/
 .gradle/
+test
+bin/
+.classpath
+.project
+.settings/
